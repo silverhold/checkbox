@@ -1,0 +1,108 @@
+  /////////////////////
+ // Custom Checkbox //
+/////////////////////
+
+// Resources
+////////////
+
+@import 'parameters/module';
+@import 'parameters/theme';
+
+
+
+// Style
+////////
+
+.customCheckbox {
+    display: none;
+
+    + label {
+        line-height: @checkboxCustom_lineHeight;
+        display: inline-block;
+        position: relative;
+        padding-left: @checkboxCustom-label_mLeft + @checkboxCustom_width;
+        cursor: pointer;
+        margin-bottom: @checkboxCustom_mBottom;
+
+        &:before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-border-radius: @checkboxCustom_borderRadius;
+            -moz-border-radius: @checkboxCustom_borderRadius;
+            border-radius: @checkboxCustom_borderRadius;
+            -webkit-box-shadow: @checkboxCustom_boxShadow;
+            -moz-box-shadow: @checkboxCustom_boxShadow;
+            -ms-box-shadow: @checkboxCustom_boxShadow;
+            -o-box-shadow: @checkboxCustom_boxShadow;
+            box-shadow: @checkboxCustom_boxShadow;
+            font-family: FontAwesome;
+            font-size: @checkboxCustom-witness_fontSize;
+            position: absolute;
+            left: 0;
+            content: '';
+            display: inline-block;
+            height: @checkboxCustom_height;
+            width: @checkboxCustom_width;
+            background-color: @checkboxCustom_backgroundColor;
+            border-width: @checkboxCustom_borderWidth;
+            border-style: solid;
+            border-color: @checkboxCustom_borderColor;
+            text-align: center;
+            color: @checkboxCustom-witness_color;
+            line-height: @checkboxCustom_height - 2;
+            margin-top: (@checkboxCustom_lineHeight - @checkboxCustom_height) / 2;
+        }
+
+        &:hover,
+        &:focus {
+            &:before {
+                -webkit-box-shadow: @checkboxCustom_boxShadow-_hover;
+                -moz-box-shadow: @checkboxCustom_boxShadow-_hover;
+                -ms-box-shadow: @checkboxCustom_boxShadow-_hover;
+                -o-box-shadow: @checkboxCustom_boxShadow-_hover;
+                box-shadow: @checkboxCustom_boxShadow-_hover;
+                background-color: @checkboxCustom_backgroundColor-_hover;
+                border-color: @checkboxCustom_borderColor-_hover;
+            }
+        }
+    }
+
+    &:checked {
+        + label {
+            &:before {
+                content: @checkboxCustom-witness_fontAwesomeIcon;
+                -webkit-box-shadow: @checkboxCustom_boxShadow-_checked;
+                -moz-box-shadow: @checkboxCustom_boxShadow-_checked;
+                -ms-box-shadow: @checkboxCustom_boxShadow-_checked;
+                -o-box-shadow: @checkboxCustom_boxShadow-_checked;
+                box-shadow: @checkboxCustom_boxShadow-_checked;
+                background-color: @checkboxCustom_backgroundColor-_checked;
+                border-color: @checkboxCustom_borderColor-_checked;
+            }
+
+            &:hover,
+            &:focus {
+                &:before {
+                    -webkit-box-shadow: @checkboxCustom_boxShadow-_hover-_checked;
+                    -moz-box-shadow: @checkboxCustom_boxShadow-_hover-_checked;
+                    -ms-box-shadow: @checkboxCustom_boxShadow-_hover-_checked;
+                    -o-box-shadow: @checkboxCustom_boxShadow-_hover-_checked;
+                    box-shadow: @checkboxCustom_boxShadow-_hover-_checked;
+                    background-color: @checkboxCustom_backgroundColor-_hover-_checked;
+                    border-color: @checkboxCustom_borderColor-_hover-_checked;
+                }
+            }
+        }
+    }
+
+    &:disabled {
+        + label {
+            cursor: no-drop;
+
+            &:before {
+                opacity: @checkboxCustom_opacity-_disabled;
+            }
+        }
+    }
+}
