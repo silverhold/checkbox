@@ -1,20 +1,20 @@
-$checkboxCustom_borderRadius: 0;
+$checkboxCustom_borderRadius: 0 !default;
 
-$checkboxCustom_borderColor: #00a3da;
-$checkboxCustom_borderColor-_hover: $checkboxCustom_borderColor;
-$checkboxCustom_borderColor-_checked: $checkboxCustom_borderColor;
-$checkboxCustom_borderColor-_hover-_checked: $checkboxCustom_borderColor;
+$checkboxCustom_borderColor: #00a3da !default;
+$checkboxCustom_borderColor-_hover: $checkboxCustom_borderColor !default;
+$checkboxCustom_borderColor-_checked: $checkboxCustom_borderColor !default;
+$checkboxCustom_borderColor-_hover-_checked: $checkboxCustom_borderColor !default;
 
-$checkboxCustom_backgroundColor: white;
-$checkboxCustom_backgroundColor-_hover: $checkboxCustom_backgroundColor;
-$checkboxCustom_backgroundColor-_checked: $checkboxCustom_backgroundColor;
-$checkboxCustom_backgroundColor-_hover-_checked: $checkboxCustom_backgroundColor;
+$checkboxCustom_backgroundColor: white !default;
+$checkboxCustom_backgroundColor-_hover: $checkboxCustom_backgroundColor !default;
+$checkboxCustom_backgroundColor-_checked: $checkboxCustom_backgroundColor !default;
+$checkboxCustom_backgroundColor-_hover-_checked: $checkboxCustom_backgroundColor !default;
 
-$checkboxCustom_boxShadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-$checkboxCustom_boxShadow-_hover: $checkboxCustom_boxShadow;
-$checkboxCustom_boxShadow-_checked: $checkboxCustom_boxShadow;
-$checkboxCustom_boxShadow-_hover-_checked: $checkboxCustom_boxShadow-_hover;
+$checkboxCustom_boxShadow: 0px 0px 5px 0px rgba(0,0,0,0.15) !default;
+$checkboxCustom_boxShadow-_hover: $checkboxCustom_boxShadow !default;
+$checkboxCustom_boxShadow-_checked: $checkboxCustom_boxShadow !default;
+$checkboxCustom_boxShadow-_hover-_checked: $checkboxCustom_boxShadow-_hover !default;
 
-$checkboxCustom-witness_color: #00a3da;
+$checkboxCustom-witness_color: #00a3da !default;
 
-$checkboxCustom_opacity-_disabled: 0.25;
+$checkboxCustom_opacity-_disabled: 0.25 !default;

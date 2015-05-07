@@ -1,10 +1,10 @@
-$checkboxCustom_height: 20px;
-$checkboxCustom_width: 20px;
-$checkboxCustom_borderWidth: 1px;
-$checkboxCustom_lineHeight: 25px;
-$checkboxCustom_mBottom: 0;
+$checkboxCustom_height: 20px !default;
+$checkboxCustom_width: 20px !default;
+$checkboxCustom_borderWidth: 1px !default;
+$checkboxCustom_lineHeight: 25px !default;
+$checkboxCustom_mBottom: 0 !default;
 
-$checkboxCustom-label_mLeft: 20px;
+$checkboxCustom-label_mLeft: 20px !default;
 
-$checkboxCustom-witness_fontSize: 10px;
-$checkboxCustom-witness_fontAwesomeIcon: "\f00c";
+$checkboxCustom-witness_fontSize: 10px !default;
+$checkboxCustom-witness_fontAwesomeIcon: "\f00c" !default;
