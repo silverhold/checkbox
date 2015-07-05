@@ -1,6 +1,7 @@
 {
   "name": "custom-checkbox",
   "homepage": "https://github.com/LoicGoyet/custom-checkbox",
+  "version": "1.0.0",
   "authors": [
     "Loic Goyet <loic@appventus.com>"
   ],
