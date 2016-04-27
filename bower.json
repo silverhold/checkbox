@@ -1,10 +1,9 @@
 {
-  "name": "custom-checkbox",
-  "homepage": "https://github.com/LoicGoyet/custom-checkbox",
-  "version": "1.0.0",
+  "name": "trowel-checkbox",
+  "homepage": "https://github.com/Trowel/checkbox",
   "authors": [
     "Loic Goyet <loic@appventus.com>"
   ],
-  "description": "A way to do a custom checkbox in less",
+  "description": "A trowel component to display custom form checkbox",
   "license": "MIT"
 }
