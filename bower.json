@@ -1,9 +1,9 @@
 {
-  "name": "trowel-checkbox",
-  "homepage": "https://github.com/Trowel/checkbox",
+  "name": "silverhold-checkbox",
+  "homepage": "https://github.com/silverhold/checkbox",
   "authors": [
     "Loic Goyet <loic@appventus.com>"
   ],
-  "description": "A trowel component to display custom form checkbox",
+  "description": "A silverhold component to display custom form checkbox",
   "license": "MIT"
 }

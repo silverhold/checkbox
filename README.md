@@ -1,8 +1,8 @@
 # checkbox
-A trowel component to display custom form checkbox
+A silverhold component to display custom form checkbox
 
 ## Installation
 
 ```sh
-bower install trowel-checkbox
+bower install silverhold-checkbox
 ```
